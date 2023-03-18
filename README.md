@@ -5,7 +5,7 @@ Eliya Ballout - 208082768
 This website is talking about a very famous celebrity “Vin Diesel”, about his life, career, and his famous movies.
 
 
-*important note*: The like button doesn't appear when trying to open the website via the link, but when you open the website localy on the computer with index.html it will appear. 
+*important note*: The like button sometimes doesn't appear when trying to open the website via the link, but when you open the website localy on the computer with index.html it will appear. 
 
 
 The link for the website:

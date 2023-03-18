@@ -1,7 +1,195 @@
-#menu
-{
-	position: fixed;
-	width: 100%;
-	height: 35px;
-	background: white;
+body{ 
+    margin: 0;
+    background-color:  rgb(228, 228, 228);
 }
+
+
+.section{
+    margin-top: 100px;
+}
+
+
+/* ################################################################################# */
+
+#menu{
+	top: 0;
+	position:fixed;
+	width: 100%;
+	height: 50px;
+	background: rgb(58, 58, 58);
+	text-align: center;
+	font-weight: bold;
+}
+
+
+#menu a{
+	text-align: center;
+    color: #f2f2f2;
+    padding: 27px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+    
+
+#menu   a:hover {
+	background-color: rgba(82, 165, 242, 0.916);
+	color: rgb(255, 255, 255);
+}
+
+
+/* ################################################################################# */
+
+h1.subHead{
+	color: rgba(50, 50, 50, 0.916);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 56px;
+	text-align: center;
+}
+
+
+h1.subHead {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1.subHead:before,
+
+h1.subHead:after {
+    content: '';
+    border-top: 4px solid;
+    margin: 0 10px 0 0;
+    flex: 1 0 10px;
+	margin-right: 10px;
+}
+
+
+h1.subHead::before {
+    margin-left: 10px ;
+}
+
+
+/* ################################################################################# */
+
+p {
+	font-size: 20px;
+}
+
+
+li{
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+img {
+border-radius: 5px;
+}
+
+
+/* ################################################################################# */
+
+.tableQA{ 
+    margin-left: auto;
+  	margin-right: auto;
+    height: 300px;
+	border-radius: 10px;
+    border-collapse: collapse;
+	border: #000000;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+
+.tableQA th{
+	font-size: 35px;
+	font-style: italic;
+    background-color: #0077ff;
+    border-radius: 5px;
+	border: 2px solid ;
+    color: #000000;
+}
+
+
+.tableQA td{
+	font-style: oblique;
+	font-size: 25px;
+    border: 2px solid ;
+    margin: 0;
+    padding: auto;
+}
+
+
+/* ################################################################################# */
+
+input[type=text], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical
+}
+  
+
+input[type=submit]{
+	margin-right: 10px;
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+input[type=submit]:hover {
+	background-color: #18491b;
+}
+
+
+input[type=reset] {
+	background-color: #0f1010;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+input[type=reset]:hover {
+	background-color: #e40808;
+}
+
+
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+	text-align: center
+}
+
+
+/* ################################################################################# */
+
+.image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.fb-like{
+	text-align: center;
+}
+
+
+/* ################################################################################# */

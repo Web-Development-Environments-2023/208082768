@@ -187,6 +187,17 @@ input[type=reset]:hover {
 }
 
 
+#like {
+    background-color: rgb(77, 80, 87);
+    text-align: center;
+    clear: both;
+    position: relative;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 0;
+}
+
+
 .fb-like{
 	text-align: center;
 }

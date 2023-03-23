@@ -240,18 +240,17 @@
             <section id="contact" class="section" style="background-color: rgba(77, 80, 87, 0.742); border-radius: 5px;">
               <h1 class="subHead" style="color: white">Contact Me</h1>
 
-              <form action="mailto:example@gmail.com" method="POST">
-                <label for="name" style="font-size: 20px; display: inline-block; margin-bottom: 5px; text-align: left; font-weight: 900;">Name:</label><br>
-                <input type="text" name="name" style="width: 100%; border-radius: 5px; " placeholder="Name"><br>
+              <form action="mailto:example@gmail.com?Subject=Contact Us" method="POST" enctype="text/plain" accept-charset="utf-8">
+                <label for="name" style="font-size: 20px; display: inline-block; margin-bottom: 5px; text-align: left; font-weight: 900;">Your Name:</label><br>
+                <input type="text" name="name" style="width: 100%; border-radius: 5px; " placeholder="Name" required><br>
                 
-                <label for="email" style="font-size: 20px; display: inline-block; margin-bottom: 5px; margin-top: 5px; text-align: left; font-weight: 900;">E-mail:</label><br>
-                <input type="text" name="email" style="width: 100%; border-radius: 5px;" placeholder="example@email.com"><br>
+                <label for="email" style="font-size: 20px; display: inline-block; margin-bottom: 5px; margin-top: 5px; text-align: left; font-weight: 900;"> Your E-mail:</label><br>
+                <input type="text" name="email" style="width: 100%; border-radius: 5px;" placeholder="example@email.com" required><br>
                 
                 <label for="Message" style="font-size: 20px; display: inline-block; margin-bottom: 5px; margin-top: 5px; text-align: left; font-weight: 900;">Message:</label><br>
-                <textarea id="textarea" style="width: 100%; border-radius: 5px ;border-width: 2px;" type="message"  name="Message" rows = "10 " cols="50" placeholder="Your Message..." required></textarea>
+                <textarea id="textarea" style="width: 100%; border-radius: 5px ;border-width: 2px;" type="message"  name="Message" rows = "10 " cols="50" placeholder="Your Message..." required></textarea><br><br>
                 
-                <br><br>
-                
+
                 <input type="submit" value="Send">
                 <input type="reset" value="Clear">
               </form>
